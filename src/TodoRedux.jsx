@@ -20,7 +20,7 @@ function TodoRedux() {
           onChange={(e) => setText(e.target.value)}
         />
         <button
-          className='h-10 w-28 bg-slate-300 rounded-r-lg'
+          className='h-10 w-28 bg-green-300 rounded-r-lg'
           onClick={() => addItem()}
         >
           Add
